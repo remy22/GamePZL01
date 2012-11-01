@@ -1,0 +1,7 @@
+c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\bin\x86\Debug\Content\Font1.xnb
+c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\bin\x86\Debug\GamePZL01.exe
+c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\bin\x86\Debug\GamePZL01.pdb
+c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\obj\x86\Debug\GamePZL01.exe
+c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\obj\x86\Debug\GamePZL01.pdb
