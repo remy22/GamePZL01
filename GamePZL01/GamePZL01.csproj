@@ -107,7 +107,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ball.cs" />
+    <Compile Include="BaseObject.cs" />
     <Compile Include="BasePage.cs" />
+    <Compile Include="Ber.cs" />
+    <Compile Include="Block.cs" />
     <Compile Include="MainPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

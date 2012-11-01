@@ -14,7 +14,12 @@ using Microsoft.Xna.Framework.Media;
 namespace GamePZL01 {
 	abstract class BasePage {
 
-		/*フィールド*/
+		protected enum ARROW{
+			UP = 0,
+			DOWN,
+			RIGHT,
+			LEFT,
+		}
 
 		/// <summary>
 		/// スプライトでテキストを描画するためのフォント
@@ -36,6 +41,15 @@ namespace GamePZL01 {
 		/// </summary>
 		private static bool previousSpaceKeyPushed = false;
 
+		/// <summary>
+		/// 現在矢印キーを押しているか。（上、下、右、左）
+		/// </summary>
+		private static bool[] nowArrowKeyPushed = new bool[4] { false, false, false, false };
+
+		/// <summary>
+		/// 前回矢印キーを押しているか。（上、下、右、左）
+		/// </summary>
+		private static bool[] previousArrowKeyPushed = new bool[4] { false, false, false, false };
 
 		/*メソッド*/
 
@@ -64,7 +78,12 @@ namespace GamePZL01 {
 		/// <param name="spriteBatch"></param>
 		public virtual void Draw(ref SpriteBatch spriteBatch){}
 
-
+		/// <summary>
+		/// 画像の読み込み
+		/// </summary>
+		public virtual void LoadGraph() { }
+		public virtual void LoadGraph(Texture2D tex1, Texture2D tex2, Texture2D tex3) { }
+		
 		/// <summary>
 		/// スペースキーが押された瞬間かどうかを判定
 		/// </summary>
@@ -84,6 +103,37 @@ namespace GamePZL01 {
 			}
 		}
 
+		/// <summary>
+		/// 矢印キーが押された瞬間かどうかを判断
+		/// </summary>
+		/// <param name="num"></param>
+		/// <returns></returns>
+		public bool ArrowKeyPushed(int num) {
+
+			previousArrowKeyPushed[num] = nowArrowKeyPushed[num];
+
+			switch(num) {
+				case 0:
+					nowArrowKeyPushed[0] = PagekeyState.IsKeyDown(Keys.Up);
+					break;
+				case 1:
+					nowArrowKeyPushed[1] = PagekeyState.IsKeyDown(Keys.Down);
+					break;
+				case 2:
+					nowArrowKeyPushed[2] = PagekeyState.IsKeyDown(Keys.Right);
+					break;
+				case 3:
+					nowArrowKeyPushed[3] = PagekeyState.IsKeyDown(Keys.Left);
+					break;
+			}
+
+			// キーが押された瞬間ならカウントする
+			if(nowArrowKeyPushed[num] && !previousArrowKeyPushed[num]) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 
 	}
 }

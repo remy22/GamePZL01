@@ -74,6 +74,9 @@ namespace GamePZL01 {
 			Page[0] = new TitlePage(this.Content.Load<SpriteFont>("Font1"));
 			Page[1] = new MainPage(this.Content.Load<SpriteFont>("Font1"));
 
+
+			Page[1].LoadGraph(Content.Load<Texture2D>("Ber"), Content.Load<Texture2D>("Ball"), Content.Load<Texture2D>("Block"));
+
 			// TODO: this.Content クラスを使用して、ゲームのコンテンツを読み込みます。
 		}
 

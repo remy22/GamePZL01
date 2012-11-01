@@ -10,16 +10,43 @@
       <Output>c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\bin\x86\Debug\Content\Font1.xnb</Output>
       <Time>2012-10-31T10:15:38.8958215+09:00</Time>
     </Item>
+    <Item>
+      <Source>Ball.png</Source>
+      <Name>Ball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\c011151736\Documents\Visual Studio 2010\Projects\GamePZL01\GamePZL01\bin\x86\Debug\Content\Ball.xnb</Output>
+      <Time>2012-11-02T00:35:12.1219991+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Ber.png</Source>
+      <Name>Ber</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\c011151736\Documents\Visual Studio 2010\Projects\GamePZL01\GamePZL01\bin\x86\Debug\Content\Ber.xnb</Output>
+      <Time>2012-11-02T00:35:11.3999578+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Block.png</Source>
+      <Name>Block</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\c011151736\Documents\Visual Studio 2010\Projects\GamePZL01\GamePZL01\bin\x86\Debug\Content\Block.xnb</Output>
+      <Time>2012-11-02T00:35:11.9869914+09:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01Content\</RootDirectory>
-      <LoggerRootDirectory>c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\c011151736\documents\visual studio 2010\Projects\GamePZL01\GamePZL01\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\c011151736\Documents\Visual Studio 2010\Projects\GamePZL01\GamePZL01Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\c011151736\Documents\Visual Studio 2010\Projects\GamePZL01\GamePZL01\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\c011151736\Documents\Visual Studio 2010\Projects\GamePZL01\GamePZL01Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\c011151736\Documents\Visual Studio 2010\Projects\GamePZL01\GamePZL01\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
